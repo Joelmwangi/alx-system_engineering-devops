@@ -1,2 +1,4 @@
-0-hello_world
+#!/bin/bash
+$ wc -l file
+Hello, World
 README.md

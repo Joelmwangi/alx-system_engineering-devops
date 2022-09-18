@@ -1,2 +1,2 @@
 #!/bin/bash
-$ wc -l file
+sudo chown betty hello

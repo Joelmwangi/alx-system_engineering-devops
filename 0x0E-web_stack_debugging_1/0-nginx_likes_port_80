@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# fix Ubuntu container's to listen on port 80
+
+new="80 default_server"
+old="8080 default_server"
+sed -i "s/$old/$new/" /etc/nginx/sites-enabled/default
+
+<<<<<<< HEAD
+service nginx restart
+=======
+service nginx restart
+>>>>>>> cde425cd09bf1922ef621157f603ed494d1afe8c
